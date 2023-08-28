@@ -1,0 +1,66 @@
+<html>  
+    <head>
+        <title>Pagina Principal</title>        
+    </head>
+    <body>
+        <H1 id="inicio">Aulas da formação de Html</H1>
+        <hr />
+        <h2>Índice</h2>
+        <ol>
+            <li><a href="#estrutura">Estrutura básica do Html</a></li>
+            <li><a href="#tags">Falando sobre Tags</a></li>
+            <ul>
+                <li><a href="#atributo">Atributo sobre Html</a></li>
+                <li><a href="#textos">Textos</a></li>
+                <li><a href="#listas">Listas Ordenadas e Não ordenadas</a></li>
+            </ul>
+            <li><a href="#links">Links</a></li>
+        </ol>
+
+        <H2 id="#estrutura"><strong>Estrutura básica do Html</H2></strong> 
+        <small><a href="#inicio"><sub>Voltar</sub></a></small>
+        <p>HTML (abreviação para a expressão inglesa HyperText Markup Language, que significa: "Linguagem de Marcação de Hipertexto") é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML.</p>
+        <p>HyTime é um padrão para a representação estruturada de hipermídia e conteúdo baseado em tempo. Um documento é visto como um conjunto de eventos concorrentes dependentes de tempo (como áudio, vídeo, etc.), conectados por hiperligações (em inglês: hyperlink e link). O padrão é independente de outros padrões de processamento de texto em geral.</p>
+        <p>SGML é um padrão de formatação de textos. Não foi desenvolvido para hipertexto, mas tornou-se conveniente para transformar documentos em hiper-objetos e para descrever as ligações.</p>
+        <p>E possuem, os campos de delimitação, cabeçalho e conteudo</p>
+
+        <h2 id="tags"><strong>O que são Tags</h2></strong> 
+        <small><a href="#inicio"><sub>Voltar</sub></a></small>
+        <p>Todo documento HTML possui marcadores (do inglês: tags), palavras entre parênteses angulares (chevron) (< e >); esses marcadores são os comandos de formatação da linguagem. Um elemento é formado por um nome de marcador (tag), atributos, valores e filhos (que podem ser outros elementos ou texto). Os atributos modificam os resultados padrões dos elementos e os valores caracterizam essa mudança. Exemplo de um elemento simples (não possui filhos):</p>
+        
+        <h2 id="atributos"><strong> das tags</h2></strong>
+        <small><a href="#inicio"><sub>Voltar</sub></a></small>
+        <p>Atributos são propriedades para alterar as tags</p>
+        <p>Os atributos podem ser globais ou locais</p>
+        <p>Cada Tag possuem apenas um conjunto de atributos possiveis</p>
+        <h3>Exemplos de atributo</h3>
+        <h4><i>Class</i></h4>
+        <p>É um exemplo de Um atributo de tag muito usado para criar uma um especifição que pode ser referenciada e reusada</p>
+        <h5>Na nomenclatura da class temos o id</h5>
+        <p>O id é o que determina uma classe e todo id tem a atribuição do igual e entre as apas o nome do id</p>
+        <h6>Nome do id</h6>
+        <p>O nome do id será a referencia para a formatação que ele levará</p>
+
+        <h2 id="texto">Textos</h2>
+        <small><a href="#inicio"><sub>Voltar</sub></a></small>
+        <p>Os textos compoem a maior parte das informações que temos na rede atráves dos sites</p>
+        <p>As tags mais usadas para textos são as de titulo e as de paragráfo</p>
+        
+        <h2 id="listas">Lista</h2>
+        <small><a href="#inicio"><sub>Voltar</sub></a></small>
+        <h3>Listas Ordenadas</h3>
+        <p>Listas ordenadas tem o nome ol</p>
+        <p>para que se possa usar deve se usar a herança de lista filhas,</p>
+        <h4><sup><abbr>Li</abbr></sup></h4>
+        <p><sup>Li são os índices da lista e nesse caso por ser ordenada ele enumera</sup></p>
+        <h3>Lista não ordenadas</h3>
+        <p>Listar não ordenadas tem o nome ul</p>
+        <p>Nas listas não ordenadas, não estão enumeradas <del>em sequencia</del> assim não possuem uma ordem</p>
+       
+        <h2 id="Links"><u>Links</u></h2>
+        <small><a href="#inicio"><sub>Voltar</sub></a></small>
+        <p>Links direcionam o contéudo para uma parte relevante sendo nela mema ou em outra página</p>
+        <p>A tag usada é a Href </p>
+
+    </body>
+</html>
